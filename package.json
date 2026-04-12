@@ -1,0 +1,25 @@
+{
+  "name": "content-mention",
+  "version": "0.1.0",
+  "description": "Obsidian community plugin for body-content @mentions.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "obsidian": "1.12.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.30",
+    "esbuild": "0.25.5",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3"
+  }
+}

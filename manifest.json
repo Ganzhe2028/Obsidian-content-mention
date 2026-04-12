@@ -1,0 +1,10 @@
+{
+  "id": "content-mention",
+  "name": "content-mention",
+  "version": "0.1.0",
+  "minAppVersion": "0.15.0",
+  "description": "Surface notes from body-content matches while typing @mentions in the editor.",
+  "author": "OpenAI",
+  "authorUrl": "https://openai.com",
+  "isDesktopOnly": false
+}
