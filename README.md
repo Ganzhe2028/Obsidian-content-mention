@@ -6,6 +6,8 @@
 
 When you remember a phrase from an old note body but not the note title, type `@phrase` while writing. The plugin searches Markdown file content, ranks likely matches, and inserts a wikilink back into the editor.
 
+![gif](demo/demo.gif)
+
 ## What It Does
 
 - Starts inline suggestions in the Markdown editor after you type the trigger character and at least one more character
